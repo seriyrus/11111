@@ -15,4 +15,4 @@ class Question(models.Model):
         ('4', v4),
     ]
     
-    correct = models.CharField(max_length=500, choises = CR)
+    correct = models.CharField(max_length=1, choices=CR)
